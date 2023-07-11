@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* HEADER */
+    .header {
+        min-height: 100vh;
+        width: 100%;
+        background-image:url(C:/Users/AJMAL/Downloads/car.webp);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+.nav-links {
+    background-color:rgba(0, 2, 11, 0.7);
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-links ul li::after  {
+    content: " ";
+    margin-left: 5px;
+    width: 0%;
+    height: 2px;
+    background: rgb(241, 245, 243) ;
+    display: block;
+    margin: auto;
+
+} 
+.nav-links ul li:hover::after {
+    width: 100%;
+    transition: 1s;
+}
+
+.text-box{
+    background-color:hsla(237, 90%, 4%, 0.7);
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.text-box h1{
+    font-size: 55px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 16px;
+    color: antiquewhite;
+}
+
+.knowmore{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(238, 100, 14);
+    font-size: 20px;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+
+/* OUR SERVICES */
+.Services{
+    background-color: rgb(240, 242, 244);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.Services h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+}
+
+.Services p {
+    font-size: 14px;
+    color:rgb(3, 0, 14);
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}  
+
+.service-div{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-col{
+    flex-basis: 32%;
+    border-radius: 60px;
+    background: rgb(0, 0, 21);
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: content-box;
+    transition: 1s;
+}
+.service-col p{
+    color: rgb(241, 241, 245);
+}
+
+.service-col:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 21);
+    border-radius: 50px ;
+    background: rgb(0, 0, 21);
+    transition: 0.5s ;
+}
+
+
+/* BEST SELLER */
+.best-seller{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(C:/Users/AJMAL/Downloads/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.best-seller-div{
+    margin-top: 5%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vehicle-image img{
+    width: 50%;
+    height: 50%;
+    display: block;
+}
+.vehicle-des{
+    color: rgb(253, 254, 254);
+    position: absolute;
+    padding: auto;
+    /* transition: 1s; */
+    background-color:rgba(0, 2, 11, 0.7);
+    flex:2;
+    text-align: justify;
+}
+
+/* .vehicle-details{
+    color: rgb(253, 254, 254);
+    position: absolute;
+    padding: auto;
+   
+    background-color:rgba(0, 2, 11, 0.7);
+    flex:2;
+    text-align: justify;
+} */
